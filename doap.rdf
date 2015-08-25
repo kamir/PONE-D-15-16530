@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+
+xmlns="http://usefulinc.com/ns/doap#">
+
+
+
+
+<!--
+
+    Though it is recommended DOAP files start with Project as the document
+
+    element, they can be full fledged RDF files like this one is.  Just
+
+    don't expect the validator to work on them.  You are assumed to know
+
+    what you're doing if you do it like this :)
+
+-->
+
+
+
+
+<Project>
+
+<name>Wikipedia Relevance and Project Life Cycle Analysis</name>
+
+<homepage rdf:resource="http://semanpix.de/opendata/wiki/index.php?title=Wikipedia_Relevance_Analysis" />
+
+<created>2013-01-01</created>
+
+<shortdesc xml:lang="en">
+
+A mixed data analysis and tool development project in the context of social science and econo physics.
+     </shortdesc>
+
+
+
+
+<description xml:lang="en">
+
+Can online media predict new and emerging trends? The underlying assumption is that a direct relationship exists between emerging technological and social trends and their representation in online systems. While several recent studies have focused on Google as the leading online information source to answer this question, much less attention has been given to Wikipedia in this context. We present here a study of the recently emerging Big Data market with a focus on the Hadoop ecosystem, and compare the capabilities of Wikipedia versus Google in predicting its popularity and life cycles. To this end, we developed a web platform to share results of Wikipedia analytics, the ETOSHA platform, providing context rich, language independent, relevance measures for upcoming and emerging trends.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+
+
+
+
+<release>
+
+<Version>
+
+<name>stable</name>
+
+<created>2015-04-16</created>
+
+<revision>0.1.0</revision>
+
+</Version>
+
+</release>
+
+
+
+
+<mailing-list rdf:resource="not availble" />
+
+<mailing-list rdf:resource="not availble" />
+
+<mailing-list rdf:resource="not availble" />
+
+
+
+
+<download-page rdf:resource="not availble" />
+
+<download-mirror rdf:resource="not availble" />
+
+
+
+
+<maintainer>
+
+<foaf:Person>
+
+<foaf:name>Mirko Kämpf</foaf:name>
+
+</foaf:Person>
+
+</maintainer>
+
+
+
+
+<category rdf:resource="http://software.freshmeat.net/browse/67/" />
+
+<!--   Internet :: WWW/HTTP :: Indexing/Search -->
+
+<category rdf:resource="http://software.freshmeat.net/browse/93/" />
+
+<!--  Software Development :: Libraries -->
+
+<category rdf:resource="http://software.freshmeat.net/browse/809/" />
+
+<!--  Software Development :: Libraries ::  Application Frameworks -->
+
+<category rdf:resource="http://software.freshmeat.net/browse/810/" />
+
+<!--  Text Processing :: Markup :: XML -->
+
+<category rdf:resource="http://software.freshmeat.net/browse/868/" />
+
+
+
+
+<!-- Sourceforge category: -->
+
+<!-- category rdf:resource="http://sourceforge.net/softwaremap/trove_list.php?form_cat=237" -->
+
+
+
+
+<!-- Licensing details -->
+
+<license rdf:resource="http://spdx.org/licenses/GPL-2.0+" />
+
+
+
+
+
+
+
+
+<!-- source repository -->
+
+
+</Project>
+
+
+
+
+<!--
+
+     optional administravia:
+
+     authoring tools can add more here if they'd like.
+
+ -->
+
+<rdf:Description rdf:about="">
+
+<foaf:maker>
+
+<foaf:Person>
+
+<foaf:name>Mirko Kämpf</foaf:name>
+
+<foaf:mbox rdf:resource="mailto:mirko.kaempf@gmail.com" />
+
+</foaf:Person>
+
+</foaf:maker>
+
+</rdf:Description>
+
+
+
+
+
+
+
+</rdf:RDF>
+
